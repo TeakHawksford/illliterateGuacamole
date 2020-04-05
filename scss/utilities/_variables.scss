@@ -1,0 +1,47 @@
+// Font Import
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap');
+
+// Color Variables
+$color-error: rgb(223, 78, 85);
+$color-error-light: lighten($color-error, 15%);
+$color-error-dark: darken($color-error, 15%);
+
+$color-success: rgb(99, 204, 130);
+$color-success-light: lighten($color-success, 15%);
+$color-success-dark: darken($color-success, 15%);
+
+$color-info: rgb(146, 123, 193);
+$color-info-light: lighten($color-info, 15%);
+$color-info-dark: darken($color-info, 15%);
+
+$color-warning: rgb(253, 120, 86);
+$color-warning-light: lighten($color-warning, 15%);
+$color-warning-dark: darken($color-warning, 15%);
+
+$color-default: rgb(81, 221, 252);
+$color-default-light: lighten($color-default, 15%);
+$color-default-dark: darken($color-default, 15%);
+
+$color-white: rgb(255, 255, 255);
+$color-black: rgb(0, 0, 0);
+$color-grey: rgb(82, 80, 80);
+
+
+
+
+// Media query Breakpoints
+
+$tablet-brk: '(min-width: 768px)';
+$desktop-brk: 1024px;
+
+
+
+
+
+
+
+
+
+
+
+

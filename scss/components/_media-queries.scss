@@ -1,0 +1,145 @@
+/* ============================================= */
+/*              Media Queries                    */
+/* ============================================= */
+// @media (min-width: 768px) {
+
+    .container {
+      @media #{$tablet-brk} {
+        max-width: 1400px;
+        @include centerAlign;
+    }
+    }
+    
+    .centered {
+      @media #{$tablet-brk} {
+        @include centerAlign;
+    }
+    }
+    
+    .row {
+      @media #{$tablet-brk} {
+        flex-direction: row;
+      }  
+    }
+    
+    [class^=col] {
+      @media #{$tablet-brk} {
+      display: flex;
+      justify-content: center;
+      margin-top: 0;
+      align-items: center;
+      }
+    }
+    
+    [class^=col] + [class^=col] {
+      @media #{$tablet-brk} {
+      margin-left: 10px;
+      }
+    }
+    
+    .col-1 {
+      @media #{$tablet-brk} {
+      flex-basis: 8.33%;
+      }
+    }
+    
+    .col-2 {
+      @media #{$tablet-brk} {
+      flex-basis: 16.67%;
+      }
+    }
+    
+    .col-3 {
+      @media #{$tablet-brk} {
+      flex-basis: 25.00%;
+      }
+    }
+    
+    .col-4 {
+      @media #{$tablet-brk} {
+      flex-basis: 33.33%;
+      }
+    }
+    
+    .col-5 {
+      @media #{$tablet-brk} {
+      flex-basis: 41.67%;
+      }
+    }
+    
+    .col-6 {
+      @media #{$tablet-brk} {
+      flex-basis: 50.00%;
+      }
+    }
+    
+    .col-7 {
+      @media #{$tablet-brk} {
+      flex-basis: 58.33%;
+      }
+    }
+    
+    .col-8 {
+      @media #{$tablet-brk} {
+      flex-basis: 66.67%;
+      }
+    }
+    
+    .col-9 {
+      @media #{$tablet-brk} {
+      flex-basis: 75.00%
+      }
+    }
+    
+    .col-10 {
+      @media #{$tablet-brk} {
+      flex-basis: 83.33%;
+      }
+    }
+    
+    .col-11 {
+      @media #{$tablet-brk} {
+      flex-basis: 91.67%;
+      }
+    }
+    
+    .col-12 {
+      @media #{$tablet-brk} {
+      flex-basis: 100%;
+      }
+    }
+    
+    .nav {
+      @media #{$tablet-brk} {
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      }
+    }
+    
+    .nav-link {
+      @media #{$tablet-brk} {
+      flex-basis: 100px;
+      }
+    } 
+    
+    .btn {
+      @media #{$tablet-brk} {
+      padding: 10px 30px;
+      }
+    }
+    
+    .btn + .btn {
+      @media #{$tablet-brk} {
+      margin-left: 10px;
+      }
+    }
+    
+    .logo {
+      @media #{$tablet-brk} {
+      margin-left: initial;
+      margin-right: initial;
+      }
+    }
+    
+    // }
